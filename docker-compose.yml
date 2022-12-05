@@ -180,7 +180,7 @@ services:
     image: mysql:5.7.16
     container_name: mysqld57
     ports:
-      - 3306:3306
+      - 3307:3306
     command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     environment:
       MYSQL_ROOT_PASSWORD: secret
@@ -191,4 +191,3 @@ services:
       - monitor-net
     labels:
       org.label-schema.group: "MySQL_DB"  
-      

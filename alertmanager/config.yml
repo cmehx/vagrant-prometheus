@@ -42,7 +42,7 @@ receivers:
             text: "{{ .CommonAnnotations.description }}"
             username: 'prometheus'
             channel: '#devops'
-            api_url: 'https://hooks.slack.com/services/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'
+            api_url: 'your webhook url'
 
     - name: 'email'
       email_configs:
